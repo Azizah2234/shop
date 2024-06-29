@@ -28,7 +28,7 @@ import { reducers, metaReducers } from './reducers';
     RouteComponent,
     WhatchComponent,
     EarphonComponent,
-    CamraComponent,
+    CamraComponent
 
   
   ],
@@ -40,7 +40,7 @@ import { reducers, metaReducers } from './reducers';
     })
   ],
   providers: [
-    provideClientHydration()
+   
   ],
   bootstrap: [AppComponent]
 })
